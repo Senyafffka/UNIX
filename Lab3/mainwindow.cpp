@@ -81,7 +81,7 @@ void MainWindow::btSave_clicked()
 
             QString command = QString("echo -n > %1;"
                                       "echo \"" + command_parameters + "\" >> %1"
-                                      ).arg("/home/les/rdp.sh");
+                                      ).arg("~/rdp.sh");
 
             arguments << "-c" << command;
         }
@@ -108,7 +108,7 @@ void MainWindow::btSave_clicked()
 
             QString command = QString("echo -n > %1;"
                                       "echo \"" + command_parameters + "\" >> %1"
-                                      ).arg("/home/les/rdp.sh");
+                                      ).arg("~/rdp.sh");
             arguments << "-c" << command;
         }
         proc->start("/bin/sh", arguments);
@@ -153,7 +153,7 @@ void MainWindow::btSave_clicked()
 
             QString command = QString("echo -n > %1;"
                                       "echo \"" + command_parameters + "\" >> %1"
-                                      ).arg("/home/les/rdp.sh");
+                                      ).arg("~/rdp.sh");
 
             arguments << "-c" << command;
         }
@@ -194,7 +194,7 @@ void MainWindow::btSave_clicked()
 
             QString command = QString("echo -n > %1;"
                                       "echo \"" + command_parameters + "\" >> %1"
-                                      ).arg("/home/les/rdp.sh");
+                                      ).arg("~/rdp.sh");
 
             arguments << "-c" << command;
         }
@@ -234,7 +234,7 @@ void MainWindow::btApply_clicked()
 
             QString command = QString("echo -n > %1;"
                                       "echo \"" + command_parameters + "\" >> %1"
-                                      ).arg("/home/les/rdp.sh");
+                                      ).arg("~/rdp.sh");
 
             arguments << "-c" << command;
         }
@@ -261,7 +261,7 @@ void MainWindow::btApply_clicked()
 
             QString command = QString("echo -n > %1;"
                                       "echo \"" + command_parameters + "\" >> %1"
-                                      ).arg("/home/les/rdp.sh");
+                                      ).arg("~/rdp.sh");
             arguments << "-c" << command;
         }
         proc->start("/bin/sh", arguments);
@@ -306,7 +306,7 @@ void MainWindow::btApply_clicked()
 
             QString command = QString("echo -n > %1;"
                                       "echo \"" + command_parameters + "\" >> %1"
-                                      ).arg("/home/les/rdp.sh");
+                                      ).arg("~/rdp.sh");
 
             arguments << "-c" << command;
         }
@@ -347,7 +347,7 @@ void MainWindow::btApply_clicked()
 
             QString command = QString("echo -n > %1;"
                                       "echo \"" + command_parameters + "\" >> %1"
-                                      ).arg("/home/les/rdp.sh");
+                                      ).arg("~/rdp.sh");
 
             arguments << "-c" << command;
         }
